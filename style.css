@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image: url(./img/wall.png);
+    height: 200px;
+    
+}
+
+h1{
+    font-size: 6rem;
+    margin-bottom: 20px;
+    font-family: 'Courier New';
+    text-align: center;
+    line-height: 200px;
+    
+}
+.container{
+    background-image: url(./img/cork.png);
+    min-height: 800px;
+    width: 100%;
+}
