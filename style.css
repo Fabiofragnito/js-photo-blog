@@ -37,10 +37,12 @@ h1 {
     gap: 2rem;
     justify-content: center;
     flex-wrap: wrap;
+    width: 50%;
+    
 }
 
 .card {
-    height: 300px;
+    height: 350px;
     width: 200px;
     background-color: white;
     align-self: center;
@@ -54,9 +56,13 @@ h1 {
 }
 
 .card p {
-    margin-top: 10px;
+   
     font-size: 0.9rem;
     color: #333;
+}
+
+#pin{
+    width: 10%;
 }
 
 
