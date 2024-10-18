@@ -4,29 +4,59 @@
     box-sizing: border-box;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: 'Edu TAS Beginner', sans-serif;
+    background-color: #f3f3f3;
 }
 
-
-header{
+header {
     background-image: url(./img/wall.png);
     height: 200px;
-    
+    text-align: center;
 }
 
-h1{
+h1 {
     font-size: 6rem;
     margin-bottom: 20px;
     font-family: 'Courier New';
-    text-align: center;
     line-height: 200px;
-    
+    color: black;
 }
-.container{
+
+.container {
     background-image: url(./img/cork.png);
     min-height: 800px;
     width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
+
+.container-sm {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+
