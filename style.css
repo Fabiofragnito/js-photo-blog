@@ -48,9 +48,11 @@ h1 {
     align-self: center;
     text-align: center;
     padding: 10px;
+    position: relative;
 }
 
 .card img {
+    
     width: 100%;
     height: auto;
 }
@@ -62,7 +64,8 @@ h1 {
 }
 
 #pin{
-    width: 10%;
+    width: 20%;
+    position: absolute;right:40%;top: 0;
 }
 
 
